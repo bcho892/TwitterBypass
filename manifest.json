@@ -1,0 +1,15 @@
+{
+	"name": "Twitter Bypass",
+	"action": {"default_title": "Click if the login prompt appears on twitter."},
+	"manifest_version": 3,
+	"version": "0.1",
+	"description": "Allows viewing of pages without login",
+	"permissions": [
+		"activeTab",
+		"scripting"
+	],
+
+	"background": {
+		"service_worker": "bypass.js"
+	}
+}

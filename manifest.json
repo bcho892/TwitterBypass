@@ -6,7 +6,8 @@
 	"description": "Allows viewing of pages without login",
 	"permissions": [
 		"activeTab",
-		"scripting"
+		"scripting",
+		"notifications"
 	],
 
 	"background": {
